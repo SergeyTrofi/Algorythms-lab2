@@ -1,0 +1,15 @@
+﻿<Window x:Class="AlgorythmsLab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlgorythmsLab2"
+        mc:Ignorable="d"
+        Title="Фрактал Дракона" Height="600" Width="800">
+    <Grid>
+        <Button Content="фрактал" HorizontalAlignment="Left" Margin="118,361,0,0" VerticalAlignment="Top"/>
+        <Button Content="ханойские через стек" HorizontalAlignment="Left" Margin="607,361,0,0" VerticalAlignment="Top"/>
+        <Button Content="ханойские через рекурсию" HorizontalAlignment="Center" Margin="0,361,0,0" VerticalAlignment="Top"/>
+        <Label Content="Выберите алгоритм" FontSize="25" HorizontalAlignment="Center" Margin="0,129,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
